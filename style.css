@@ -411,7 +411,7 @@ body{
 .map-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* Adjust the aspect ratio as needed (e.g., 16:9 = 56.25%) */
+  padding-bottom: 56.25%; 
   height: 0;
 }
 
@@ -611,11 +611,7 @@ h1{
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) { /* Tablets */
-  .image-container img {
-    width: 40%;
-  }
-}
+
 
 
 
@@ -633,11 +629,7 @@ h1{
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) { /* Tablets */
-  .para {
-    font-size: 16px;
-  }
-}
+
 
 
 
